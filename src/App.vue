@@ -5,5 +5,4 @@
 <style lang="scss">
 #app {
 }
-
 </style>
