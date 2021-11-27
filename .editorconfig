@@ -1,5 +1,9 @@
 [*.{js,jsx,ts,tsx,vue}]
+# 缩进风格
 indent_style = space
+# 缩进量
 indent_size = 2
+# 删除文件行尾空格
 trim_trailing_whitespace = true
+# 最后插入空行
 insert_final_newline = true
