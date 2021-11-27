@@ -3,10 +3,12 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+// 引入element-plus样式以及按需引入对应的组件
 import 'element-plus/dist/index.css'
 import { ElButton, ElRow } from 'element-plus'
 
 const app = createApp(App)
+
 app.config.globalProperties.$ELEMENT = {
   // options
 }
