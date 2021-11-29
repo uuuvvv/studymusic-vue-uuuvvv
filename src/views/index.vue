@@ -1,7 +1,9 @@
 <template>
-  <div class="wrapper"></div>
+  <div class="wrapper">
+  </div>
 </template>
-
+<script setup>
+</script>
 <script>
 export default {
   // index组件

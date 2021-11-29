@@ -1,11 +1,11 @@
-const Home = () => import(/* webpackChunkName: "about" */ '../views/Home.vue')
+const index = () => import(/* webpackChunkName: "about" */ '../views/index.vue')
 const About = () => import(/* webpackChunkName: "about" */ '../views/About.vue')
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'index',
+    component: index
   },
   {
     path: '/about',
